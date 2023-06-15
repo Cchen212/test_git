@@ -1,3 +1,4 @@
+#生成图像lena不同空间分辨率、不同灰度分辨率的图片
 import cv2
 
 img = cv2.imread('D:\DIP4E Book Images Global Edition\lena.tif')
