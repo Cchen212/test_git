@@ -29,6 +29,7 @@ imgRotate = geometryTransform(imgGray, math.cos(math.pi/4), -math.sin(math.pi/4)
 imgTranslation = geometryTransform(imgGray, 1, 0, 100, 0, 1, 100)#平移
 imgVerticalCut = geometryTransform(imgGray, 1, 1, 0, 0, 1, 0)#垂直剪切
 imgHorizontalCut = geometryTransform(imgGray, 1, 0, 0, 1, 1, 0)#水平剪切
+
 cv2.imshow('imgGray',imgGray)
 cv2.imshow('imgEqual', imgEqual)
 cv2.imshow('imgShrink', imgShrink)
